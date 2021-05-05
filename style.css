@@ -794,7 +794,16 @@ color: #cc9933;
 }
 
 @media (max-width: 500px) {
-
+.home{
+    display: flex;
+    background: url("imagens/backcr.png") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: auto;
+    background-size: cover;
+   
+   font-family: 'Open Sans', sans-serif;
+}
 .home-content{
     display: flex;
     justify-content: space-between;
